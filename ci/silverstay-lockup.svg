@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" width="520" height="128">
+  <!-- 실버스테이 가로형 로고(심볼 + 워드마크) — 원본 벡터.
+       워드마크는 편집 가능한 <text>(Pretendard). 인쇄·간판 등 배포용으로 확정 시
+       일러스트레이터/피그마에서 '윤곽선 만들기(outline)'로 고정해 사용 권장. -->
+  <g>
+    <path d="M64 22 L20 60 H108 Z" fill="#0E8C72"/>
+    <rect x="32" y="60" width="64" height="46" fill="#0E8C72"/>
+    <path d="M50 77 A7 7 0 0 1 64 77 A7 7 0 0 1 78 77 L64 96 Z" fill="#FFFFFF"/>
+  </g>
+  <text x="128" y="88" font-family="Pretendard, 'Pretendard Variable', 'Malgun Gothic', sans-serif"
+        font-size="56" font-weight="800" letter-spacing="-1" fill="#191F28">실버스테이</text>
+</svg>

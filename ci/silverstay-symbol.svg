@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- 실버스테이 심볼 — 집(쉼터) + 하트(돌봄). 원본 벡터(CI 마스터).
+       배경 사각형은 앱 아이콘용 — 투명 심볼만 필요하면 <rect> 제거 후 사용. -->
+  <rect width="128" height="128" rx="28" fill="#0E8C72"/>
+  <g>
+    <!-- 지붕 -->
+    <path d="M64 22 L20 60 H108 Z" fill="#FFFFFF"/>
+    <!-- 몸체 -->
+    <rect x="32" y="60" width="64" height="46" fill="#FFFFFF"/>
+    <!-- 하트 -->
+    <path d="M50 77 A7 7 0 0 1 64 77 A7 7 0 0 1 78 77 L64 96 Z" fill="#0E8C72"/>
+  </g>
+</svg>
