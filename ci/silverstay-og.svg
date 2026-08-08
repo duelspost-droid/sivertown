@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- 실버스테이 OG/배너 원본 벡터(1200x630). public/og.png의 마스터.
+       텍스트는 편집 가능 — 배포 확정본은 outline 처리 권장. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#0E8C72"/>
+      <stop offset="1" stop-color="#096E5A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1140" cy="140" r="260" fill="#FFFFFF" opacity="0.11"/>
+  <circle cx="70" cy="630" r="210" fill="#FFFFFF" opacity="0.11"/>
+
+  <!-- 심볼(흰 집 + 그린 하트) -->
+  <g transform="translate(88,100) scale(1.05)">
+    <path d="M72 20 L8 75 H136 Z" fill="#FFFFFF"/>
+    <path d="M25 75 H119 V141 H25 Z" fill="#FFFFFF"/>
+    <path d="M51 100 A10.5 10.5 0 0 1 72 100 A10.5 10.5 0 0 1 93 100 L72 128 Z" fill="#0E8C72"/>
+  </g>
+
+  <text x="92" y="380" font-family="Pretendard, 'Pretendard Variable', 'Malgun Gothic', sans-serif"
+        font-size="88" font-weight="800" letter-spacing="-2" fill="#FFFFFF">실버스테이</text>
+  <text x="96" y="462" font-family="Pretendard, 'Pretendard Variable', 'Malgun Gothic', sans-serif"
+        font-size="40" fill="#FFFFFF">부모님께 꼭 맞는 실버타운·요양 시설,</text>
+  <text x="96" y="514" font-family="Pretendard, 'Pretendard Variable', 'Malgun Gothic', sans-serif"
+        font-size="40" fill="#FFFFFF">비용까지 계산해 비교하세요</text>
+  <text x="96" y="580" font-family="Pretendard, 'Pretendard Variable', 'Malgun Gothic', sans-serif"
+        font-size="32" font-weight="700" fill="#FFFFFF">silverstay.co.kr</text>
+</svg>
