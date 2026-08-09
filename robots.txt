@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /auth
+Disallow: /admin
+Disallow: /staff
+Disallow: /manage/
+
+Sitemap: https://silverstay.co.kr/sitemap.xml

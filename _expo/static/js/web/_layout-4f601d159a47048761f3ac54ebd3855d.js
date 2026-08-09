@@ -1,0 +1,1 @@
+__d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.default=function(){return(0,t.jsx)(n.Stack,{screenOptions:{headerShown:!1}})};var n=r(d[0]),t=r(d[1])},872,[608,13]);
