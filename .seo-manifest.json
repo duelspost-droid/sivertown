@@ -1,12 +1,12 @@
 {
   "counts": {
-    "public": 9,
+    "public": 10,
     "private": 10,
-    "facilities": 8331,
-    "indexed": 6937,
+    "facilities": 8332,
+    "indexed": 6938,
     "noindexed": 1394,
     "facilityScoped": 2,
-    "sitemapUrls": 6947,
-    "files": 25018
+    "sitemapUrls": 6949,
+    "files": 25022
   }
 }
