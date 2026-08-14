@@ -28,6 +28,24 @@
     <meta name="twitter:image" content="https://silverstay.co.kr/og.png" />
     <meta name="google-site-verification" content="rbMQSsAB9IP1Fd532zXgODSHevpeZ3YS1G5m9h9ZO5E" />
     <meta name="naver-site-verification" content="07b6d47be2af98e41163f02a1d5de31e1258d565" />
+    <script>
+    (function(){try{
+      var K='sv:chunk404:';
+      function recover(k){
+        if(!k)return;
+        try{if(sessionStorage.getItem(K+k))return;sessionStorage.setItem(K+k,'1');}catch(e){}
+        location.reload();
+      }
+      addEventListener('error',function(e){
+        var t=e&&e.target;
+        if(t&&t.tagName==='SCRIPT'&&t.src&&t.src.indexOf('/_expo/static/js/')>-1)recover(t.src);
+      },true);
+      addEventListener('unhandledrejection',function(e){
+        var r=e&&e.reason,m=(r&&(r.message||r))+'';
+        if(/dynamically imported module|Loading chunk|Importing a module script failed/i.test(m))recover(m.slice(0,160));
+      });
+    }catch(e){}})();
+    </script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"LocalBusiness","name":"(의)현당의료재단 늘봄요양병원","url":"https://silverstay.co.kr/facility/a7a4d72a-dad4-4179-828d-93a1bd1c253d/","address":{"@type":"PostalAddress","addressCountry":"KR","addressRegion":"경기","addressLocality":"용인시","streetAddress":"수지구 포은대로59번길 17, 광교복합의료센터,지하1층,1층일부,2층~4층,6층 (상현동)"}}]</script>
     <style>html,body{height:100%}body{overflow:hidden}#root{display:flex;height:100%;flex:1}</style>
   </head>

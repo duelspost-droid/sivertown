@@ -28,6 +28,24 @@
     <meta name="twitter:image" content="https://silverstay.co.kr/og.png" />
     <meta name="google-site-verification" content="rbMQSsAB9IP1Fd532zXgODSHevpeZ3YS1G5m9h9ZO5E" />
     <meta name="naver-site-verification" content="07b6d47be2af98e41163f02a1d5de31e1258d565" />
+    <script>
+    (function(){try{
+      var K='sv:chunk404:';
+      function recover(k){
+        if(!k)return;
+        try{if(sessionStorage.getItem(K+k))return;sessionStorage.setItem(K+k,'1');}catch(e){}
+        location.reload();
+      }
+      addEventListener('error',function(e){
+        var t=e&&e.target;
+        if(t&&t.tagName==='SCRIPT'&&t.src&&t.src.indexOf('/_expo/static/js/')>-1)recover(t.src);
+      },true);
+      addEventListener('unhandledrejection',function(e){
+        var r=e&&e.reason,m=(r&&(r.message||r))+'';
+        if(/dynamically imported module|Loading chunk|Importing a module script failed/i.test(m))recover(m.slice(0,160));
+      });
+    }catch(e){}})();
+    </script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"LocalBusiness","name":"의료법인 효일의료재단 나눔요양병원","url":"https://silverstay.co.kr/facility/c34105ab-0235-47da-8e9e-d409333b25d5/","address":{"@type":"PostalAddress","addressCountry":"KR","addressRegion":"전북","addressLocality":"전주시 완산구","streetAddress":"선너머2길 4, (중화산동1가)"}}]</script>
     <style>html,body{height:100%}body{overflow:hidden}#root{display:flex;height:100%;flex:1}</style>
   </head>

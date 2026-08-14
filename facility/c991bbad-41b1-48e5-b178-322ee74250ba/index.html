@@ -28,6 +28,24 @@
     <meta name="twitter:image" content="https://silverstay.co.kr/og.png" />
     <meta name="google-site-verification" content="rbMQSsAB9IP1Fd532zXgODSHevpeZ3YS1G5m9h9ZO5E" />
     <meta name="naver-site-verification" content="07b6d47be2af98e41163f02a1d5de31e1258d565" />
+    <script>
+    (function(){try{
+      var K='sv:chunk404:';
+      function recover(k){
+        if(!k)return;
+        try{if(sessionStorage.getItem(K+k))return;sessionStorage.setItem(K+k,'1');}catch(e){}
+        location.reload();
+      }
+      addEventListener('error',function(e){
+        var t=e&&e.target;
+        if(t&&t.tagName==='SCRIPT'&&t.src&&t.src.indexOf('/_expo/static/js/')>-1)recover(t.src);
+      },true);
+      addEventListener('unhandledrejection',function(e){
+        var r=e&&e.reason,m=(r&&(r.message||r))+'';
+        if(/dynamically imported module|Loading chunk|Importing a module script failed/i.test(m))recover(m.slice(0,160));
+      });
+    }catch(e){}})();
+    </script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"LocalBusiness","name":"효진전문요양원","url":"https://silverstay.co.kr/facility/c991bbad-41b1-48e5-b178-322ee74250ba/","address":{"@type":"PostalAddress","addressCountry":"KR","addressRegion":"경기","addressLocality":"안산시 상록구","streetAddress":"선진4길 21"}}]</script>
     <style>html,body{height:100%}body{overflow:hidden}#root{display:flex;height:100%;flex:1}</style>
   </head>

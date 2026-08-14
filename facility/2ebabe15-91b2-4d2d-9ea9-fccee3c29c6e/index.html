@@ -28,6 +28,24 @@
     <meta name="twitter:image" content="https://silverstay.co.kr/og.png" />
     <meta name="google-site-verification" content="rbMQSsAB9IP1Fd532zXgODSHevpeZ3YS1G5m9h9ZO5E" />
     <meta name="naver-site-verification" content="07b6d47be2af98e41163f02a1d5de31e1258d565" />
+    <script>
+    (function(){try{
+      var K='sv:chunk404:';
+      function recover(k){
+        if(!k)return;
+        try{if(sessionStorage.getItem(K+k))return;sessionStorage.setItem(K+k,'1');}catch(e){}
+        location.reload();
+      }
+      addEventListener('error',function(e){
+        var t=e&&e.target;
+        if(t&&t.tagName==='SCRIPT'&&t.src&&t.src.indexOf('/_expo/static/js/')>-1)recover(t.src);
+      },true);
+      addEventListener('unhandledrejection',function(e){
+        var r=e&&e.reason,m=(r&&(r.message||r))+'';
+        if(/dynamically imported module|Loading chunk|Importing a module script failed/i.test(m))recover(m.slice(0,160));
+      });
+    }catch(e){}})();
+    </script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"LocalBusiness","name":"희연요양병원","url":"https://silverstay.co.kr/facility/2ebabe15-91b2-4d2d-9ea9-fccee3c29c6e/","address":{"@type":"PostalAddress","addressCountry":"KR","addressRegion":"경남","addressLocality":"창원시 성산구","streetAddress":"원이대로393번길 25, 케이프타운 2-4층 일부, 지하1-2층 일부호 (반지동)"}}]</script>
     <style>html,body{height:100%}body{overflow:hidden}#root{display:flex;height:100%;flex:1}</style>
   </head>

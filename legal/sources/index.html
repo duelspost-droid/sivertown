@@ -28,6 +28,24 @@
     <meta name="twitter:image" content="https://silverstay.co.kr/og.png" />
     <meta name="google-site-verification" content="rbMQSsAB9IP1Fd532zXgODSHevpeZ3YS1G5m9h9ZO5E" />
     <meta name="naver-site-verification" content="07b6d47be2af98e41163f02a1d5de31e1258d565" />
+    <script>
+    (function(){try{
+      var K='sv:chunk404:';
+      function recover(k){
+        if(!k)return;
+        try{if(sessionStorage.getItem(K+k))return;sessionStorage.setItem(K+k,'1');}catch(e){}
+        location.reload();
+      }
+      addEventListener('error',function(e){
+        var t=e&&e.target;
+        if(t&&t.tagName==='SCRIPT'&&t.src&&t.src.indexOf('/_expo/static/js/')>-1)recover(t.src);
+      },true);
+      addEventListener('unhandledrejection',function(e){
+        var r=e&&e.reason,m=(r&&(r.message||r))+'';
+        if(/dynamically imported module|Loading chunk|Importing a module script failed/i.test(m))recover(m.slice(0,160));
+      });
+    }catch(e){}})();
+    </script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","name":"실버스테이","url":"https://silverstay.co.kr","logo":"https://silverstay.co.kr/favicon.png","description":"부모님 상태와 예산에 맞는 요양시설·실버타운 3~5곳을 비교표로 정리해 드립니다. 전국 약 7,000곳, 예상 월 비용·입소 조건·장기요양등급 적합 여부까지. 가족과 공유할 수 있는 비교표와 시설 문의 체크리스트."}]</script>
     <style>html,body{height:100%}body{overflow:hidden}#root{display:flex;height:100%;flex:1}</style>
   </head>
