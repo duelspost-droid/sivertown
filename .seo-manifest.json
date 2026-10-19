@@ -6,7 +6,11 @@
     "indexed": 6939,
     "noindexed": 1397,
     "facilityScoped": 2,
-    "sitemapUrls": 6951,
-    "files": 25039
+    "sitemapUrls": 7023,
+    "files": 33469,
+    "regionShells": 92,
+    "regionIndexed": 72,
+    "sitemapFiles": 2,
+    "oldSlugRedirects": 0
   }
 }
