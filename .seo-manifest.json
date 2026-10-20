@@ -3,14 +3,15 @@
     "public": 11,
     "private": 14,
     "facilities": 8336,
-    "indexed": 6939,
-    "noindexed": 1397,
+    "indexed": 6938,
+    "noindexed": 1398,
     "facilityScoped": 2,
-    "sitemapUrls": 7023,
-    "files": 33469,
+    "sitemapUrls": 7022,
+    "files": 33502,
     "regionShells": 92,
     "regionIndexed": 72,
     "sitemapFiles": 2,
-    "oldSlugRedirects": 0
+    "oldSlugRedirects": 33,
+    "dupRedirects": 1398
   }
 }
