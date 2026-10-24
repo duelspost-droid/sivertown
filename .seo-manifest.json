@@ -1,14 +1,14 @@
 {
   "counts": {
-    "public": 11,
+    "public": 12,
     "private": 14,
     "facilities": 8336,
     "indexed": 6846,
     "noindexed": 1490,
     "hiddenRows": 92,
     "facilityScoped": 2,
-    "sitemapUrls": 6930,
-    "files": 33502,
+    "sitemapUrls": 6931,
+    "files": 33503,
     "regionShells": 92,
     "regionIndexed": 72,
     "sitemapFiles": 2,
