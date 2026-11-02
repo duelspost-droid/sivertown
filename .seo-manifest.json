@@ -13,6 +13,11 @@
     "regionIndexed": 72,
     "sitemapFiles": 2,
     "oldSlugRedirects": 33,
-    "dupRedirects": 1403
+    "dupRedirects": 429,
+    "foldedMoveBlocked": 974,
+    "foldedMoveUnknownSido": 2,
+    "publicFacilities": 6841,
+    "publicListed": 4891,
+    "publicMapOnly": 1950
   }
 }
