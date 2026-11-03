@@ -1,14 +1,14 @@
 {
   "counts": {
     "public": 12,
-    "private": 14,
-    "facilities": 8339,
-    "indexed": 6844,
+    "private": 15,
+    "facilities": 8340,
+    "indexed": 6845,
     "noindexed": 1495,
     "hiddenRows": 92,
     "facilityScoped": 2,
-    "sitemapUrls": 6946,
-    "files": 33550,
+    "sitemapUrls": 6947,
+    "files": 33555,
     "regionShells": 110,
     "regionIndexed": 89,
     "sitemapFiles": 2,
@@ -17,8 +17,8 @@
     "dupRedirects": 429,
     "foldedMoveBlocked": 974,
     "foldedMoveUnknownSido": 1,
-    "publicFacilities": 6844,
-    "publicListed": 4889,
+    "publicFacilities": 6845,
+    "publicListed": 4890,
     "publicMapOnly": 1955
   }
 }
